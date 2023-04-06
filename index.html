@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Airtable class example</title>
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- The website JavaScript file -->
+    <script src = "airtable.browser.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+<meta https-equiv="X-UA-Compatible" content="ie=edge" />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<link rel="stylesheet" href="https://use.typekit.net/ghf0ohy.css">
+
+</head>
+<body id="b">
+
+      <div class="parent">
+    <div class="text-container">
+      <a class="item1" id="ShowAll"><p class="book" id="a">ClAssic</p><h2>BOOK COVERS</h2></a>
+    <!--<h1>1900s / 1910s / 1920s / 1930s / 1940s / 1950s / 1960s / 1970s / 1980s / 1990s </h1>-->
+      <div class="item2">
+        <b><h1><button type="button" id="Adventure">ADVENTURE</button> / <button type="button" id="BannedBook"> BANNED BOOK</button>
+        / <button type="button" id="Childrens">CHILDREN'S</button> / <button type="button" id="ComingOfAge">COMING OF AGE</button> / <button type="button" id="Dystopian">DYSTOPIAN</button> / <button type="button" id="Fantasy">FANTASY</button> / <button type="button" id="Historical">HISTORICAL</button> / <button type="button" id="Mystery">MYSTERY</button> / <button type="button" id="ReadForSchool">READ FOR SCHOOL</button> / <button type="button" id="Romance">ROMANCE</button> / <button type="button" id="SciFi">SCI-FI</button> / <button type="button2" id="ShowAll" class="showall" >RESET</button> </h1></b>
+       
+    </div>
+
+
+<br>
+
+  </body>
+  
+</html>
+
+  <h3 class="shift2"><span id="words"> The designer for the cover of Brave New World, Leslie Holland, never read the book.<br></span></h3>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+(function () {
+var words = ["J.D. Salinger was a picky fellow when it came to who he let design his book covers. But for Catcher and the Rye, he let his trusted friend and neighbor, E. Michael Mitchell, design the famous cover.","Paul Bacon invented the style Big Book Look, which featured a large, a bold title, a prominent author’s name, and a small conceptual image. This is exemplified in the cover of Catch-22", "The second 'S' in Kurt Vonnegut's Slaughterhouse-Five is upside down.", "The first paperbacks were born in 1935 and arose from the famed Penguin Books.", "From 1930 onward, illustration was all the rage in book cover design, originating from original illustrations from Disney for their published books.", "Following the birth of graphic design in the 1940s, book covers became much more focused on typographic treatment and conventions of good graphic design."],
+i = 0;
+setInterval(function(){ $('#words').fadeOut(function(){
+  $(this).html(words[(i = (i + 5) % words.length)]).fadeIn();
+}); }, 6000)
+})();
+</script>
+</div>
+
+

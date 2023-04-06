@@ -1,0 +1,255 @@
+
+
+  @font-face {
+    font-family: Theonory;
+    src: url("TheonoryFreeVersionRegular-gxg03.ttf");
+  }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.text-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1em;
+  gap: 1.5em;
+}
+
+.item1 {
+  grid-column: 1 / 2;
+}
+
+.item2 {
+  grid-column: 2 / 2;
+}
+
+
+h3 {
+  font-family: 'Roboto Mono', monospace;  font-weight: 200;
+  font-size: .7em;
+  letter-spacing: -.05em;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  color: grey;
+  background-color: black;
+  z-index: 2;
+}
+
+.rectangle bottom
+
+.shift {
+  position: fixed;
+margin-bottom: 3.75em;
+}
+
+.shift2 {
+position: fixed;
+}
+
+.fact {
+  font-family: 'Roboto Mono', monospace;  font-weight: 200;
+  font-size: 1em;
+  letter-spacing: -.05em;
+  opacity: 50%;
+  position: fixed;
+  bottom: 0;
+}
+
+ .airtable-item{
+    display: inline-block;
+    scale: 190%;
+    border: black 1px solid;
+    border-bottom: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+  }
+
+  .grid .airtable-item {
+    scale: 300%;
+  }
+
+  .push {
+    margin-left: 5em; 
+    margin-top: -5em;
+  }
+
+  .adventure {
+    background-color: red;
+  }
+
+  .airtable-item:hover{
+    animation-name: book;
+    animation-duration: .8s;
+    animation-fill-mode: both;
+    transition-timing-function: ease;
+    will-change: transform, opacity;
+  }
+
+  @keyframes book {
+    0%   { transform: translateY(0); }
+    100%  { transform: translateY(-3em); }
+  }
+
+  .title {
+    color: red;
+    word-wrap: break-word;
+  }
+  .content-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      gap: 10px;
+    }
+  
+img {
+  width: 50px;
+}
+  
+h1 {
+  font-weight: bold;
+  letter-spacing: 2rem;
+  font-size: 1em;
+  text-align: justify;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -.3em;
+  word-spacing: 3em;
+
+}
+
+h2{
+  margin-top: -1em;
+  font-weight: 700;
+  letter-spacing: -.06em;
+  font-size: 6em;
+  line-height: .9em;
+  font-family: 'Inter', sans-serif;
+}
+
+
+  .filter-show{
+    display: inline-block;
+    animation: none;
+  margin: 5em;
+  margin-top: -2em;
+  margin-bottom: 15em;
+  scale: 300%;
+  }
+
+  .filter-show .airtable-item:hover{
+    display: inline-block;
+    margin-top: -5em;
+  margin: 5em;
+  animation: none;
+  scale: 300%;
+  }
+
+  .filter-hide{
+    display: none; 
+  }
+
+  .filter-hide .title{
+    display: none;
+ 
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5em;
+    background-color: black;
+    color: white;
+    }
+  
+
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    opacity: 1;
+    transition: 0.3s;
+    background: black;
+
+  }
+
+  button:hover {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 500;
+    background: white;
+    width: 70%;
+    animation: round .6s;
+    animation-fill-mode: both;
+    transition-timing-function: ease;
+    white-space:nowrap;
+
+  }
+
+.book {
+  color: #565656;
+  margin-top: .1em;
+  font-weight: 700;
+  letter-spacing: -.06em;
+  font-size: 6em;
+  line-height: 1em;
+  font-family: 'Inter', sans-serif;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+.book:hover {
+  color: white;
+  transition: 1s;
+  letter-spacing: 0em;
+  font-family: Theonory;
+  font-weight: bolder;
+  font-style: normal;
+    font-size: 7em;
+    text-transform: none;
+    animation: stretch 3s;
+    animation-fill-mode: both;
+    transition-timing-function: ease;
+
+}
+
+
+@keyframes stretch {
+  0%   {  letter-spacing: 0em;}
+  50%   {  letter-spacing: .2em;}
+  100%   {  letter-spacing: 0em;}
+
+}
+
+
+  .showall {
+    color: black;
+    font-weight: 500;
+    background: #565656;
+    width: 7em;
+    animation: none;
+    border-radius: 2em;
+    white-space:nowrap;
+
+  }
+
+  @keyframes round {
+    0%   {  border-radius: 0em;}
+    100%  {  border-radius: 2em; }
+  }
+
+  .line {
+    border: 1px white;
+    width: max-content;
+    z-index: -1;
+  }
