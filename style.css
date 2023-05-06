@@ -36,13 +36,13 @@
 
 
 h3 {
-  font-family: 'Roboto Mono', monospace;  font-weight: 200;
-  font-size: .7em;
-  letter-spacing: -.05em;
+  font-size: 1em;
+  letter-spacing: .05em;
+  font-weight: 100;
   text-align: left;
   position: fixed;
   bottom: 0;
-  color: grey;
+  color: white;
   background-color: black;
   z-index: 2;
 }
@@ -191,11 +191,12 @@ h2{
 
   button:hover {
     color: black;
-    font-size: 1.5em;
     font-weight: 500;
     background: white;
-    width: 70%;
-    border-radius: ;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 1px;
     animation: round .6s;
     animation-fill-mode: both;
     transition-timing-function: ease;
