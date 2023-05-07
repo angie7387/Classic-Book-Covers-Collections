@@ -8,6 +8,7 @@
   @media only screen and (max-width: 480px) and (min-width: 360px){
   h3 {
     font-size: .1em;
+    font-weight: 100;
 }
   }xx
 
@@ -37,7 +38,6 @@
 
 h3 {
   font-size: 1em;
-  letter-spacing: .05em;
   font-weight: 100;
   text-align: left;
   position: fixed;
@@ -45,8 +45,6 @@ h3 {
   color: white;
   background-color: black;
   z-index: 2;
-  font-weight: 300;
-
 }
 
 .rectangle bottom
@@ -61,7 +59,7 @@ position: fixed;
 }
 
 .fact {
-  font-family: 'Roboto Mono', monospace;  font-weight: 200;
+  font-family: 'Roboto Mono', monospace;  font-weight: 100;
   font-size: 1em;
   letter-spacing: -.05em;
   opacity: 50%;
@@ -130,13 +128,13 @@ h1 {
   font-family: 'Inter', sans-serif;
   letter-spacing: -.3em;
   word-spacing: 3em;
-  font-weight: 300;
+  font-weight: bold;
 
 }
 
 h2{
   margin-top: -1em;
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: -.06em;
   font-size: 6em;
   line-height: .9em;
@@ -215,7 +213,7 @@ h2{
   font-family: 'Inter', sans-serif;
   transition: 0.5s;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 100;
 
 }
 
